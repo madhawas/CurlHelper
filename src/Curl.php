@@ -13,9 +13,8 @@ namespace mad\CurlHelper;
 
 class Curl
 {
-    public function say()
+    public static function say()
     {
-        echo "Nothing given";
-        die;
+        echo "Nothing given"; 
     }
 }
