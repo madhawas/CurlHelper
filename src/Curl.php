@@ -9,12 +9,13 @@
 
 // If you don't to add a custom vendor folder, then use the simple class
 // namespace HelloComposer;
-namespace mad\HelloComposer;
+namespace mad\CurlHelper;
 
-class Hello
+class Curl
 {
-    public function say($toSay = "Nothing given")
+    public function say()
     {
-        return $toSay;
+        echo "Nothing given";
+        die;
     }
 }
